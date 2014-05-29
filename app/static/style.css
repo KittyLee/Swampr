@@ -1,0 +1,46 @@
+#header{
+	color:hotpink;
+	width: 100%;
+	background-color: #CC0099;
+	border-style: ridge;
+	border-color: black;
+}
+
+.post_holder {
+	width:700px;
+	background-color: black;
+	color: hotpink;
+	border-radius: 20px;
+	padding: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top:30px;
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: center;
+
+} 
+
+.post_{
+	width:700px;
+	background-color: purple;
+	color: black;
+	border-radius: 20px;
+	padding: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top:30px;
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: center;
+}
+.post_header {
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+}
+.author {
+	color:aqua;
+}
+
+
