@@ -1,9 +1,10 @@
 #header{
-	color:hotpink;
+	color:black;
 	width: 100%;
 	background-color: #CC0099;
 	border-style: ridge;
 	border-color: black;
+	text-align: center;
 }
 
 .post_holder {
@@ -18,6 +19,7 @@
 	margin-left: 40px;
 	margin-right: 40px;
 	text-align: center;
+	float: left;
 
 } 
 
@@ -33,6 +35,7 @@
 	margin-left: 40px;
 	margin-right: 40px;
 	text-align: center;
+	float: right;
 }
 .post_header {
 	font-size: 24px;

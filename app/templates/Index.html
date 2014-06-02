@@ -12,19 +12,28 @@
 <body>   
 
 
-<div id = "header"><h1>Hello World</h1></div>
+<div id = "header"><h1>Swampr Blog</h1></div>
 
 
 
 
-{% for post in posts %}
-<div {% if post.author == "Kitty Lee" %} class = "post_" {%else%} class="post_holder" {% endif %}>
-<p><p><span class="post_header">{{post.title}} - Posted by <span class="author">{{post.author}}</span></span></p>
+{% for user in all_user %}
+<div {% if user.username == "Kittylee" %} class = "post_" {%else%} class="post_holder" {% endif %}>
+	
 
-<p>{{post.content}}</p></p>
-</div>
-<br>
+{% for post in all_post %}
+	{% if post.author_id == user.id %}
+	<p><span class="post_header">{{post.title}} - Posted by <span class="author">{{user.firstname}} {{user.lastname}}</span></p>
+		
+	<p>{{post.content}}</p></p>
+
+		{% endif %}
+	{% endfor %}
+	</div>
 {% endfor %}
+
+
+
 
 
 
